@@ -99,6 +99,10 @@ h2{
   font-size: 45px;
   color: var(--zelena);
 }
+figure img{
+  width: 100%;
+  margin: 0;
+}
 .meta, figcaption{
   color: var(--seda);
 }
@@ -133,9 +137,10 @@ h2{
   text-align: left;
 }
 blockquote{
-  text-align: center;
+  align-items: center;
   font-size: 36px;
   color: var(--seda);
+  margin: 0 auto;
 }
 blockquote::before, blockquote::after{
   content: "";
